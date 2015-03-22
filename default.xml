@@ -183,7 +183,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
-  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="tesla" revision="lp5.1" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
@@ -343,12 +343,12 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="tesla" revision="lp5.1-caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="tesla" revision="lp5.1" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="tesla" revision="lp5.1" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="gh" revision="lp5.1-caf" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="gh" revision="cm-12.0" />
+  <!--project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" / -->
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="tesla" revision="lp5.1-caf" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
