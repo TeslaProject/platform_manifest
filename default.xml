@@ -519,5 +519,4 @@
   <project path="vendor/moto" name="android_vendor_motorola" remote="github" revision="lp5.1"/>
   <project path="vendor/tesla" name="vendor_tesla" remote="github" revision="lp5.1"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-linaro-4.8" name="Toolchain" remote="linaro" revision="linaro-4.8-arm-linux-androideabi" groups="pdk,linux,arm" />
-  <project path="external/busybox" name="external_busybox" groups="pdk" remote="github" revision="lp5.1" />
 </manifest>
