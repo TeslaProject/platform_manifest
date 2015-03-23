@@ -12,10 +12,7 @@
   <remote name="gh"
            fetch="https://github.com/"
            sync-j="6" />           
-  <remote name="linaro"
-          fetch="https://github.com/ArchiDroid/"
-          sync-j="6" />
-  
+
   <project path="build" name="android_build" groups="pdk,tradefed" remote="tesla" revision="lp5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -519,5 +516,5 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/motorola" name="android_vendor_motorola" remote="tesla" revision="lp5.1"/>
   <project path="vendor/tesla" name="vendor_tesla" remote="tesla" revision="lp5.1"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-linaro-4.8" name="Toolchain" remote="linaro" revision="linaro-4.8-arm-linux-androideabi" groups="pdk,linux,arm" />
+
 </manifest>
