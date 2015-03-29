@@ -516,6 +516,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/lge/hammerhead" name="vendor_lge_hammerhead" remote="tesla" revision="lp5.1" />
+  <project path="vendor/lge/mako" name="vendor_lge_mako" remote="tesla" revision="lp5.1" />
   <project path="vendor/moto" name="android_vendor_motorola" remote="tesla" revision="lp5.1" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tesla" revision="lp5.1"/>
 
