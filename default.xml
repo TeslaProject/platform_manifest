@@ -313,7 +313,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" />
-  <project path="frameworks/opt/telephony" name="OptiPop/frameworks_opt_telephony" remote="gh" revision="rerebase" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="tesla" revision="lp5.1" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
