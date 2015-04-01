@@ -462,7 +462,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
-  <project path="sdk" name="OptiPop/sdk" remote="gh" revision="rebase" />
+  <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="tesla" revision="lp5.1-uber" />
   <project path="system/extras" name="OptiPop/system_extras" remote="gh" revision="rebase" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -470,7 +470,7 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="OptiPop/system_vold" remote="gh" revision="rebase" />
-  <project path="tools/base" name="OptiPop/tools_base" remote="gh" revision="rebase" />
+  <project path="tools/base" name="platform/tools/base" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
