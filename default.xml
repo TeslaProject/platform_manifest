@@ -54,7 +54,7 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />  
   <project path="device/moto/shamu" name="android_device_moto_shamu" remote="tesla" revision="lp5.1-uber" />
-  <project path="kernel/moto/shamu" name="Shamu" remote="tesla" revision="lp5.1" />
+  <project path="kernel/moto/shamu" name="kernel_motorola_shamu" remote="tesla" revision="lollipop-5.1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
