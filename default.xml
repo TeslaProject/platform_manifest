@@ -54,7 +54,7 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />  
   <project path="device/moto/shamu" name="android_device_moto_shamu" remote="tesla" revision="lp5.1-uber" />
-  <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="master" />
+  <project path="kernel/moto/shamu" name="N6" remote="tesla" revision="lp5.1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
@@ -111,7 +111,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="OptiPop/android_external_clang" remote="gh" revision="master" />
+  <project path="external/clang" name="android_external_clang" remote="tesla" revision="lp5.1" />
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/conscrypt" name="platform/external/conscrypt" />
