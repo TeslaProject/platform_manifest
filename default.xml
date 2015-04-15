@@ -50,7 +50,7 @@
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" groups="device,hammerhead" remote="tesla" revision="lp51" />
-  <project path="kernel/lge/hammerhead" name="WickedElemental-N5" remote="gh" revision="Wicked-51" />
+  <project path="kernel/lge/hammerhead" name="AD5GB/WickedElemental-N5" remote="gh" revision="Wicked-51" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />  
   <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu" remote="tesla" revision="lp5.1" />
