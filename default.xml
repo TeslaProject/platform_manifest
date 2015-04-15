@@ -5,7 +5,7 @@
            fetch="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-5.1.0_r5"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8" />
   <remote name="tesla"
            fetch="https://github.com/TeslaProject/"
            sync-j="6" />
