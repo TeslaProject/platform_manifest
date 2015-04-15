@@ -19,8 +19,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="OptiPop/art" remote="gh" revision="rebase" />
-  <project path="bionic" name="OptiPop/bionic" remote="gh" revision="rebase" />
+  <project path="art" name="OptiPop/art" remote="gh" revision="opti-5.1" />
+  <project path="bionic" name="OptiPop/bionic" remote="gh" revision="opti-5.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -54,7 +54,7 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />  
   <project path="device/moto/shamu" name="android_device_moto_shamu" remote="tesla" revision="lp5.1-uber" />
-  <project path="kernel/moto/shamu" name="kernel_motorola_shamu" remote="tesla" revision="lollipop-5.1" />
+  <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="master" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
@@ -73,7 +73,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="OptiPop/busybox" remote="gh" revision="rebase" />
+  <project path="external/busybox" name="OptiPop/busybox" remote="gh" revision="opti-5.1" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
@@ -118,10 +118,10 @@
   <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="OptiPop/external_dnsmasq" remote="gh" revision="rebase" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="OptiPop/external_e2fsprogs" remote="gh" revision="rebase" />
+  <project path="external/e2fsprogs" name="OptiPop/external_e2fsprogs" remote="gh" revision="opti-5.1" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -134,7 +134,7 @@
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/fio" name="platform/external/fio" />
-  <project path="external/flac" name="OptiPop/external_flac" remote="gh" revision="rebase" />
+  <project path="external/flac" name="OptiPop/external_flac" remote="gh" revision="opti-5.1" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
@@ -142,7 +142,7 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/glide" name="platform/external/glide" />
-  <project path="external/google" name="CyanogenMod/android_external_google" remote="gh" revision="cm-12.0" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="gh" revision="cm-12.1" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" />
@@ -157,7 +157,7 @@
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
-  <project path="external/iputils" name="OptiPop/external_iputils" remote="gh" revision="rebase" />
+  <project path="external/iputils" name="platform/external/iputils" />
   <project path="external/jack" name="platform/external/jack" />
   <project path="external/jarjar" name="platform/external/jarjar" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
@@ -167,7 +167,7 @@
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jline" name="platform/external/jline" />
   <project path="external/jmdns" name="platform/external/jmdns" />
-  <project path="external/jpeg" name="OptiPop/external_jpeg" remote="gh" revision="rebase" />
+  <project path="external/jpeg" name="OptiPop/external_jpeg" remote="gh" revision="opti-5.1" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsmn" name="platform/external/jsmn" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" />
@@ -237,7 +237,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst"/>
   <project path="external/openssh" name="platform/external/openssh"/>
-  <project path="external/openssl" name="OptiPop/external_openssl" remote="gh" revision="rebase" />
+  <project path="external/openssl" name="OptiPop/external_openssl" remote="gh" revision="opti-5.1" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
   <project path="external/pcre" name="platform/external/pcre" />
@@ -253,17 +253,17 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/scrypt" name="platform/external/scrypt" />
-  <project path="external/sepolicy" name="OptiPop/external_sepolicy" remote="gh" revision="rebase" />
+  <project path="external/sepolicy" name="OptiPop/external_sepolicy" remote="gh" revision="opti-5.1" />
   <project path="external/sfntly" name="platform/external/sfntly" />
-  <project path="external/skia" name="OptiPop/external_skia" remote="gh" revision="rebase" />
+  <project path="external/skia" name="OptiPop/external_skia" remote="gh" revision="opti-5.1" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex"/>
-  <project path="external/sqlite" name="OptiPop/external_sqlite" remote="gh" revision="rebase" />
+  <project path="external/sqlite" name="OptiPop/external_sqlite" remote="gh" revision="opti-5.1" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="OptiPop/external_stlport" remote="gh" revision="rebase" />
+  <project path="external/stlport" name="OptiPop/external_stlport" remote="gh" revision="opti-5.1" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
@@ -286,7 +286,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zopfli" name="platform/external/zopfli" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="OptiPop/frameworks_av" remote="gh" revision="rebase" />
+  <project path="frameworks/av" name="OptiPop/frameworks_av" remote="gh" revision="opti-5.1" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="tesla" revision="lp5.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -296,7 +296,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="OptiPop/frameworks_native" remote="gh" revision="rebase" />
+  <project path="frameworks/native" name="OptiPop/frameworks_native" remote="gh" revision="opti-5.1" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -308,8 +308,8 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
-  <project path="frameworks/opt/net/voip" name="OptiPop/frameworks_opt_net_voip" remote="gh" revision="rebase" />
-  <project path="frameworks/opt/net/wifi" name="OptiPop/frameworks_opt_net_wifi" remote="gh" revision="rebase" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" />
@@ -321,7 +321,7 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
-  <project path="frameworks/wilhelm" name="OptiPop/frameworks_wilhelm" remote="gh" revision="rebase" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
@@ -340,11 +340,11 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="OptiPop/hardware_libhardware" remote="gh" revision="rebase" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio" name="OptiPop/hardware_qcom_audio" remote="gh" revision="rebase" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="tesla" revision="lp5.1" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="tesla" revision="lp5.1" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
@@ -464,12 +464,12 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="tesla" revision="lp5.1-uber" />
-  <project path="system/extras" name="OptiPop/system_extras" remote="gh" revision="rebase" />
+  <project path="system/extras" name="OptiPop/system_extras" remote="gh" revision="opti-5.1" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="OptiPop/system_vold" remote="gh" revision="rebase" />
+  <project path="system/vold" name="OptiPop/system_vold" remote="gh" revision="opti-5.1" />
   <project path="tools/base" name="platform/tools/base" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
