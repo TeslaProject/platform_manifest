@@ -5,6 +5,7 @@
            fetch="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-5.1.0_r5"
            remote="aosp"
+           sync-c="true"
            sync-j="8" />
   <remote name="tesla"
            fetch="https://github.com/TeslaProject/"
@@ -489,6 +490,4 @@
   <project path="vendor/moto" name="android_vendor_motorola" remote="tesla" revision="lp5.1" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tesla" revision="lp5.1-uber"/>
 
- <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="gh" revision="lp5.1" />
 </manifest>
